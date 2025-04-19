@@ -82,6 +82,8 @@ Password
 
 Image: postgres
 
+db: postgres
+
 User: postgres
 
 Password: password
