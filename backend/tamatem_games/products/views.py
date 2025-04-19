@@ -35,7 +35,6 @@ class ProductView(GenericAPIView):
 
         queryset = self.get_queryset()
 
-        print(validated_data, "ddd")
         if "query" in validated_data and len(validated_data["query"]):
             location = validated_data["query"].upper()
             queryset = queryset.filter(Q(location__iexact=location))

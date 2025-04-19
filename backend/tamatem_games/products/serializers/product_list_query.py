@@ -24,6 +24,5 @@ class ProductListQuerySerializer(serializers.Serializer):
         valid_locations = [choice[0] for choice in LocationChoices.choices]
         if value and value.upper() not in valid_locations:
             raise serializers.ValidationError("Not a valid location")
-        print("vvv" , value)
         return value
 
