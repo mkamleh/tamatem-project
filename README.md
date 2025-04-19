@@ -102,7 +102,7 @@ Build Path: ./frontend
 
 Port: 5173
 
-# 🔐 Why Cookie-Based Authentication?
+# 🔐 Why Cookie-Based JWT Authentication?
 
 We use secure, HTTP-only cookies for auth, which provides:
 
