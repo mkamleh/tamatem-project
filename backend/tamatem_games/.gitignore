@@ -1,0 +1,70 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.sqlite3
+/db.sqlite3
+*.db
+*.log
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# VS Code specific
+.vscode/
+
+# JetBrains specific
+.idea/
+
+# Python packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# test coverage
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache/
+
+# pyre
+.pyre/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Sphinx documentation
+docs/_build/
+build/
